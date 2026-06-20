@@ -1,5 +1,5 @@
 # AGV/AMR Geofencing & Geospatial Warehouse Management
-### Author: Emmanuel Oyekanlu — Principal Data Engineer
+### Author: Emmanuel Oyekanlu — Principal AI/Data Solutions Engineer
 
 ---
 
@@ -186,4 +186,4 @@ This repository demonstrates the foundational geospatial layer that made all of 
 
 ---
 
-*Emmanuel Oyekanlu — Principal Data Engineer | Geospatial & Data Lakehouse Engineering*
+*Emmanuel Oyekanlu — Principal AI/Data Solutions Engineer*
