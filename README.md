@@ -26,7 +26,7 @@ Left: 2D telemetry density heatmap (proxy for dwell time) overlaid on zone outli
 
 ## Background: Real-World Context at Corning Inc.
 
-During my tenure as a Principal Data Engineer at Corning Inc., one of my most technically challenging responsibilities involved building the geospatial data infrastructure for our Automated Guided Vehicle (AGV) and Autonomous Mobile Robot (AMR) fleet management system. Corning operates large manufacturing and warehouse facilities where precision routing, collision avoidance, and real-time zone enforcement are safety-critical requirements.
+During my tenure as a Software & Systems Project Engineer at Corning Inc., one of my most technically challenging responsibilities involved building the geospatial data infrastructure for our Automated Guided Vehicle (AGV) and Autonomous Mobile Robot (AMR) fleet management system. Corning operates large manufacturing and warehouse facilities where precision routing, collision avoidance, and real-time zone enforcement are safety-critical requirements.
 
 This repository demonstrates the geospatial engineering techniques I applied to solve these problems using open-source Python tools: **GeoPandas**, **Shapely**, and **GeoJSON**.
 
