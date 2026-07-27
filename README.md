@@ -1,5 +1,5 @@
 # AGV/AMR Geofencing & Geospatial Warehouse Management
-### Author: Emmanuel Oyekanlu — Principal Data Engineer
+### Author: Emmanuel Oyekanlu — Principal AI/Data Engineer
 
 ---
 
@@ -26,7 +26,7 @@ Left: 2D telemetry density heatmap (proxy for dwell time) overlaid on zone outli
 
 ## Background: Real-World Context
 
-During my tenure as a Principal Data Engineer in the manufacturing sector, one of my most technically challenging responsibilities involved building the geospatial data infrastructure for an Automated Guided Vehicle (AGV) and Autonomous Mobile Robot (AMR) fleet management system. Large manufacturing and warehouse facilities like this one require precision routing, collision avoidance, and real-time zone enforcement as safety-critical requirements.
+During my tenure as a Principal AI/Data Engineer in the manufacturing sector, one of my most technically challenging responsibilities involved building the geospatial data infrastructure for an Automated Guided Vehicle (AGV) and Autonomous Mobile Robot (AMR) fleet management system. Large manufacturing and warehouse facilities like this one require precision routing, collision avoidance, and real-time zone enforcement as safety-critical requirements.
 
 This repository demonstrates the geospatial engineering techniques I applied to solve these problems using open-source Python tools: **GeoPandas**, **Shapely**, and **GeoJSON**.
 
