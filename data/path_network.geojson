@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "name": "path_network",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "path_id": "P01",
+        "path_name": "West_Arterial_NB",
+        "direction": "one_way",
+        "max_speed_mps": 2.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-76.8096, 42.1400],
+          [-76.8096, 42.1409]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "path_id": "P02",
+        "path_name": "East_Arterial_SB",
+        "direction": "one_way",
+        "max_speed_mps": 2.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-76.8086, 42.1409],
+          [-76.8086, 42.1400]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "path_id": "P03",
+        "path_name": "Center_Arterial_BD",
+        "direction": "bidirectional",
+        "max_speed_mps": 1.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-76.8091, 42.1400],
+          [-76.8091, 42.1409]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "path_id": "P04",
+        "path_name": "North_Cross_Aisle",
+        "direction": "bidirectional",
+        "max_speed_mps": 1.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-76.8096, 42.1407],
+          [-76.8091, 42.1407],
+          [-76.8086, 42.1407]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "path_id": "P05",
+        "path_name": "Center_Cross_Aisle",
+        "direction": "bidirectional",
+        "max_speed_mps": 1.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-76.8096, 42.1405],
+          [-76.8091, 42.1405],
+          [-76.8086, 42.1405]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "path_id": "P06",
+        "path_name": "South_Cross_Aisle",
+        "direction": "bidirectional",
+        "max_speed_mps": 1.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-76.8096, 42.1402],
+          [-76.8091, 42.1402],
+          [-76.8086, 42.1402]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "path_id": "P07",
+        "path_name": "Dock1_Approach",
+        "direction": "one_way",
+        "max_speed_mps": 0.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-76.8095, 42.1402],
+          [-76.8095, 42.1401],
+          [-76.8095, 42.1400]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "path_id": "P08",
+        "path_name": "Dock2_Approach",
+        "direction": "one_way",
+        "max_speed_mps": 0.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-76.8089, 42.1402],
+          [-76.8089, 42.1401],
+          [-76.8089, 42.1400]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "path_id": "P09",
+        "path_name": "Charger_West_Approach",
+        "direction": "bidirectional",
+        "max_speed_mps": 0.3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-76.8096, 42.1407],
+          [-76.8098, 42.1407],
+          [-76.8098, 42.1408]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "path_id": "P10",
+        "path_name": "Charger_East_Approach",
+        "direction": "bidirectional",
+        "max_speed_mps": 0.3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-76.8086, 42.1407],
+          [-76.8084, 42.1407],
+          [-76.8084, 42.1408]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "path_id": "P11",
+        "path_name": "West_Staging_Loop",
+        "direction": "one_way",
+        "max_speed_mps": 0.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-76.8096, 42.1402],
+          [-76.8097, 42.1402],
+          [-76.8098, 42.1402],
+          [-76.8098, 42.1401],
+          [-76.8096, 42.1401],
+          [-76.8096, 42.1402]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "path_id": "P12",
+        "path_name": "East_Staging_Loop",
+        "direction": "one_way",
+        "max_speed_mps": 0.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-76.8086, 42.1402],
+          [-76.8085, 42.1402],
+          [-76.8084, 42.1402],
+          [-76.8084, 42.1401],
+          [-76.8086, 42.1401],
+          [-76.8086, 42.1402]
+        ]
+      }
+    }
+  ]
+}

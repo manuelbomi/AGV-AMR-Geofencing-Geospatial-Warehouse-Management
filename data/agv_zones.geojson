@@ -1,0 +1,226 @@
+{
+  "type": "FeatureCollection",
+  "name": "agv_zones",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z01",
+        "zone_type": "agv_operating_zone",
+        "zone_name": "Main AGV Corridor",
+        "speed_limit_mps": 2.0,
+        "priority": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-76.8099, 42.1401],
+          [-76.8083, 42.1401],
+          [-76.8083, 42.1408],
+          [-76.8099, 42.1408],
+          [-76.8099, 42.1401]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z02",
+        "zone_type": "charging_station",
+        "zone_name": "Charging_Station_West",
+        "speed_limit_mps": 0.3,
+        "priority": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-76.8099, 42.1407],
+          [-76.8097, 42.1407],
+          [-76.8097, 42.1408],
+          [-76.8099, 42.1408],
+          [-76.8099, 42.1407]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z03",
+        "zone_type": "charging_station",
+        "zone_name": "Charging_Station_East",
+        "speed_limit_mps": 0.3,
+        "priority": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-76.8084, 42.1407],
+          [-76.8083, 42.1407],
+          [-76.8083, 42.1408],
+          [-76.8084, 42.1408],
+          [-76.8084, 42.1407]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z04",
+        "zone_type": "no_go_zone",
+        "zone_name": "Machinery_Zone_A",
+        "speed_limit_mps": 0.0,
+        "priority": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-76.8099, 42.1404],
+          [-76.8097, 42.1404],
+          [-76.8097, 42.1406],
+          [-76.8099, 42.1406],
+          [-76.8099, 42.1404]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z05",
+        "zone_type": "no_go_zone",
+        "zone_name": "Electrical_Cabinet_Zone",
+        "speed_limit_mps": 0.0,
+        "priority": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-76.8083, 42.1401],
+          [-76.8082, 42.1401],
+          [-76.8082, 42.1403],
+          [-76.8083, 42.1403],
+          [-76.8083, 42.1401]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z06",
+        "zone_type": "slow_zone",
+        "zone_name": "Pedestrian_Crossing_N",
+        "speed_limit_mps": 0.5,
+        "priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-76.8092, 42.1408],
+          [-76.8090, 42.1408],
+          [-76.8090, 42.1408],
+          [-76.8092, 42.1408],
+          [-76.8092, 42.1408]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z07",
+        "zone_type": "slow_zone",
+        "zone_name": "Pedestrian_Crossing_Mid",
+        "speed_limit_mps": 0.5,
+        "priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-76.8092, 42.1404],
+          [-76.8090, 42.1404],
+          [-76.8090, 42.1405],
+          [-76.8092, 42.1405],
+          [-76.8092, 42.1404]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z08",
+        "zone_type": "slow_zone",
+        "zone_name": "Pedestrian_Crossing_S",
+        "speed_limit_mps": 0.5,
+        "priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-76.8092, 42.1401],
+          [-76.8090, 42.1401],
+          [-76.8090, 42.1402],
+          [-76.8092, 42.1402],
+          [-76.8092, 42.1401]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z09",
+        "zone_type": "parking_area",
+        "zone_name": "Staging_Area_West",
+        "speed_limit_mps": 0.0,
+        "priority": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-76.8099, 42.1401],
+          [-76.8097, 42.1401],
+          [-76.8097, 42.1403],
+          [-76.8099, 42.1403],
+          [-76.8099, 42.1401]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z10",
+        "zone_type": "parking_area",
+        "zone_name": "Staging_Area_East",
+        "speed_limit_mps": 0.0,
+        "priority": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-76.8085, 42.1401],
+          [-76.8083, 42.1401],
+          [-76.8083, 42.1403],
+          [-76.8085, 42.1403],
+          [-76.8085, 42.1401]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z11",
+        "zone_type": "loading_dock_zone",
+        "zone_name": "Dock_Approach_Zone",
+        "speed_limit_mps": 0.5,
+        "priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-76.8096, 42.1400],
+          [-76.8088, 42.1400],
+          [-76.8088, 42.1401],
+          [-76.8096, 42.1401],
+          [-76.8096, 42.1400]
+        ]]
+      }
+    }
+  ]
+}
